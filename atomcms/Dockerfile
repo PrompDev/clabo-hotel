@@ -1,5 +1,5 @@
 # Stage 1: Composer dependencies
-FROM php:8-cli-alpine AS composer-builder
+FROM php:8.4-cli-alpine AS composer-builder
 
 ARG COMMIT=53ea66d
 
@@ -58,7 +58,7 @@ RUN rm -rf node_modules
 
 
 # Stage 3: Final image with serversideup/php (nginx + PHP-FPM)
-FROM serversideup/php:8-fpm-nginx-alpine
+FROM serversideup/php:8.4-fpm-nginx-alpine
 
 ENV PHP_OPCACHE_ENABLE=1
 

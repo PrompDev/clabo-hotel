@@ -1,0 +1,12 @@
+UPDATE website_settings SET `value` = 'http://127.0.0.1:8080/api/imager/?figure=' WHERE `key` = 'avatar_imager';
+UPDATE website_settings SET `value` = 'http://127.0.0.1:8080/swf/c_images/album1584' WHERE `key` = 'badges_path';
+UPDATE website_settings SET `value` = 'http://127.0.0.1:8080/usercontent/badgeparts/generated' WHERE `key` = 'group_badge_path';
+UPDATE website_settings SET `value` = 'http://127.0.0.1:8080/swf/dcr/hof_furni' WHERE `key` = 'furniture_icons_path';
+UPDATE website_settings SET `value` = '/housekeeping' WHERE `key` = 'housekeeping_url';
+UPDATE website_settings SET `value` = 'arcturus' WHERE `key` = 'rcon_ip';
+UPDATE website_settings SET `value` = '3001' WHERE `key` = 'rcon_port';
+UPDATE website_settings SET `value` = 'http://127.0.0.1:3000' WHERE `key` = 'nitro_path';
+UPDATE website_settings SET `value` = '4' WHERE `key` = 'min_staff_rank';
+UPDATE website_settings SET `value` = '5' WHERE `key` = 'min_maintenance_login_rank';
+UPDATE website_settings SET `value` = '6' WHERE `key` = 'min_housekeeping_rank';
+UPDATE website_settings SET `value` = '0' WHERE `key` = 'cloudflare_turnstile_enabled';
